@@ -2,6 +2,12 @@ import React, { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import Home from "./components/Home";
+import About from "./components/About";
+import Hello from "./components/Heder";
+import Footer from "./components/Footer";
+import Employee from "./components/Employee";
+import Student from "./components/Student";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,18 +26,43 @@ function App() {
   //     <h1>Hello World</h1>
   //   </>
   // )
-
   // // return (
   // //   //  React.createElement(h1, null, "Hello World"); // using React.createElement method but this is not common in React
 
   // //   React.createElement(h1, null, "Hello World")
   // // ); // using React.createElement method but this is not common in React
 
+  // return ( // 03
+  //   <>
+  //     <h1>welcome</h1>
+  //     <form action="" className="form">
+  //       <label htmlFor="name">Name:</label>
+  //       <input type="text" id="name" name="name" placeholder="enter name" />
+  //       <br />
+  //       <label htmlFor="email">Email:</label>
+  //       <input type="email" id="email" name="email" placeholder="enter Email" />
+  //       <br />
+  //       <label htmlFor="password">Password</label>
+  //       <input
+  //         type="password"
+  //         id="password"
+  //         name="password"
+  //         placeholder="enter password"
+  //       />
+  //       <br />
+  //       <input type="submit" value="Submit" />
+  //     </form>
+  //   </>
+  // );
   return (
     <>
-      <h1 >Hello World</h1>
+      {/* <Home />;
+      <About />;
+      <Hello />;<Footer />; */}
+
+      <Employee name="John Doe" lastname="Smith" role="Developer" />
+      <Student name="Jane Doe" lastname="Johnson" grade="A" />
     </>
   );
 }
-
 export default App;
