@@ -8,6 +8,8 @@ import Hello from "./components/Heder";
 import Footer from "./components/Footer";
 import Employee from "./components/Employee";
 import Student from "./components/Student";
+import Child from "./components/Child";
+import Perent from "./components/Perent";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -60,13 +62,14 @@ function App() {
       <About />;
       <Hello />;<Footer />; */}
 
-      <Employee name="John Doe" lastname="Smith" role="Developer" />
+      {/* <Employee name="John Doe" lastname="Smith" role="Developer" />
       <Employee lastname="Smith" role="Developer" />
       <Student name="Jane Doe" lastname="Johnson" grade="A" />
       <Student grade="A" />
-      <Employee name="DEV" lastname="Solanki" role="Developer" />
+      <Employee name="DEV" lastname="Solanki" role="Developer" /> */}
+      <Perent />
+      <Child />
     </>
-    
   );
 }
 export default App;
