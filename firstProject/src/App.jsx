@@ -61,8 +61,12 @@ function App() {
       <Hello />;<Footer />; */}
 
       <Employee name="John Doe" lastname="Smith" role="Developer" />
+      <Employee lastname="Smith" role="Developer" />
       <Student name="Jane Doe" lastname="Johnson" grade="A" />
+      <Student grade="A" />
+      <Employee name="DEV" lastname="Solanki" role="Developer" />
     </>
+    
   );
 }
 export default App;
