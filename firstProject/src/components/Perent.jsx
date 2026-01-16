@@ -16,7 +16,6 @@ function Parent() {
     lastname: "Smith",
     position: "Software Engineer",
   };
-
   return (
     <div>
       <h1>Parent Component</h1>
