@@ -11,11 +11,12 @@ import Student from "./components/Student";
 import Child from "./components/Child";
 import Perent from "./components/Perent";
 import Massages from "./components/Massages";
+import Conter from "./components/Conter";
 
 function App() {
   const [count, setCount] = useState(0);
-<div>
-  {/* // //01 //return <h1>hello</h1>; // it only returns one element if you want to return multiple elements you have to wrap them in a div or a fragment
+  <div>
+    {/* // //01 //return <h1>hello</h1>; // it only returns one element if you want to return multiple elements you have to wrap them in a div or a fragment
 
   // // 02 return ( // wrapping in a div
   // //     <div>
@@ -47,7 +48,7 @@ function App() {
   //       <br />
   //       <label htmlFor="password">Password</label>
   //       <input */}
-  {/* //         type="password"
+    {/* //         type="password"
   //         id="password"
   //         name="password"
   //         placeholder="enter password"
@@ -57,7 +58,7 @@ function App() {
   //     </form>
   //   </>
   // ); */}
-  </div>
+  </div>;
 
   return (
     <>
@@ -72,11 +73,8 @@ function App() {
       <Employee name="DEV" lastname="Solanki" role="Developer" /> */}
       {/* <Perent />
       <Child /> */}
-      <Massages />
-
-
-
-
+      {/* <Massages /> */}
+      <Conter />
     </>
   );
 }
