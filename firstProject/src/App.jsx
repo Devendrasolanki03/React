@@ -2,19 +2,20 @@ import React, { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import Home from "./components/Home";
-import About from "./components/About";
-import Hello from "./components/Heder";
-import Footer from "./components/Footer";
-import Employee from "./components/Employee";
-import Student from "./components/Student";
-import Child from "./components/Child";
-import Perent from "./components/Perent";
-import Massages from "./components/Massages";
-import Conter from "./components/Conter";
+import Massage1 from "./components/Massage1";
+import Conter1 from "./components/Counter1";
+// import Home from "./components/Home";
+// import About from "./components/About";
+// import Hello from "./components/Heder";
+// import Footer from "./components/Footer";
+// import Employee from "./components/Employee";
+// import Student from "./components/Student";
+// import Child from "./components/Child";
+// import Perent from "./components/Perent";
+// import Massages from "./components/Massages";
+// import Conter from "./components/Conter";
 
 function App() {
-  const [count, setCount] = useState(0);
   <div>
     {/* // //01 //return <h1>hello</h1>; // it only returns one element if you want to return multiple elements you have to wrap them in a div or a fragment
 
@@ -74,7 +75,10 @@ function App() {
       {/* <Perent />
       <Child /> */}
       {/* <Massages /> */}
-      <Conter />
+      {/* <Conter /> */}
+      {/* <Massage1 /> */}
+
+      <Conter1/>
     </>
   );
 }
