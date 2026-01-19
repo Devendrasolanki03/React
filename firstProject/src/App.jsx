@@ -4,6 +4,11 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Massage1 from "./components/Massage1";
 import Conter1 from "./components/Counter1";
+import Counter2 from "./components/Conter2";
+import Toggle from "./components/Toggle";
+import InputExample from "./components/InputExample";
+import Profile from "./components/Profile";
+import User from "./components/User";
 // import Home from "./components/Home";
 // import About from "./components/About";
 // import Hello from "./components/Heder";
@@ -78,7 +83,16 @@ function App() {
       {/* <Conter /> */}
       {/* <Massage1 /> */}
 
-      <Conter1/>
+      {/* <Conter1/> */}
+      {/* <Counter2 /> */}
+
+      {/* <Toggle /> */}
+
+      {/* <InputExample /> */}
+
+      {/* <Profile /> */}
+
+    <User />
     </>
   );
 }

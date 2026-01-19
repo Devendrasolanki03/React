@@ -33,7 +33,6 @@ function Employee(props) {
     lastname = "default last",
     role = "default role",
   } = props;
-
   return (
     <>
       <h1>Employee Component</h1>
