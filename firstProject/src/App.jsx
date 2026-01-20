@@ -10,6 +10,8 @@ import InputExample from "./components/InputExample";
 import Profile from "./components/Profile";
 import User from "./components/User";
 import Fruits from "./components/Fruits";
+import ArrayState from "./components/ArrayState";
+import EmployeeState from "./components/EmployeeState";
 // import Home from "./components/Home";
 // import About from "./components/About";
 // import Hello from "./components/Heder";
@@ -94,7 +96,9 @@ function App() {
       {/* <Profile /> */}
 
       {/* <User /> */}
-      <Fruits />
+      {/* <Fruits /> */}
+      {/* <ArrayState /> */}
+      <EmployeeState />
     </>
   );
 }
