@@ -15,6 +15,7 @@ import UserGreeting from "./components/UserGreeting";
 import Form from "./components/Form";
 import LogInForm from "./components/LogInForm";
 import LargeForm from "./components/LargeForm";
+import LogInForm2 from "./components/LoginForm2";
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
       {/* <EmployeeState /> */}
       {/* <UserGreeting /> */}/{/* <Form /> */}
       {/* <LogInForm /> */}
-      <LargeForm />
+      {/* <LargeForm /> */}
+      <LogInForm2 />
     </>
   );
 }
