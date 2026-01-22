@@ -33,8 +33,8 @@ function App() {
       {/* <EmployeeState /> */}
       {/* <UserGreeting /> */}/{/* <Form /> */}
       {/* <LogInForm /> */}
-      {/* <LargeForm /> */}
-      <LogInForm2 />
+      <LargeForm />
+      {/* <LogInForm2 /> */}
     </>
   );
 }
