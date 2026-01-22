@@ -12,12 +12,14 @@ import Fruits from "./components/Fruits";
 import ArrayState from "./components/ArrayState";
 import EmployeeState from "./components/EmployeeState";
 import UserGreeting from "./components/UserGreeting";
+import Form from "./components/Form";
+import LogInForm from "./components/LogInForm";
+import LargeForm from "./components/LargeForm";
 
 function App() {
   return (
     <>
       {/* Uncomment only what you want to render */}
-
       {/* <Massage1 /> */}
       {/* <Counter1 /> */}
       {/* <Counter2 /> */}
@@ -28,9 +30,9 @@ function App() {
       {/* <Fruits /> */}
       {/* <ArrayState /> */}
       {/* <EmployeeState /> */}
-
-      {/* <UserGreeting /> */}/
-      
+      {/* <UserGreeting /> */}/{/* <Form /> */}
+      {/* <LogInForm /> */}
+      <LargeForm />
     </>
   );
 }
