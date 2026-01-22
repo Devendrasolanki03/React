@@ -12,6 +12,7 @@ import User from "./components/User";
 import Fruits from "./components/Fruits";
 import ArrayState from "./components/ArrayState";
 import EmployeeState from "./components/EmployeeState";
+import UserGreeting from "./components/UserGreeting";
 // import Home from "./components/Home";
 // import About from "./components/About";
 // import Hello from "./components/Heder";
@@ -98,7 +99,8 @@ function App() {
       {/* <User /> */}
       {/* <Fruits /> */}
       {/* <ArrayState /> */}
-      <EmployeeState />
+      {/* <EmployeeState /> */}
+      <UserGreeting />
     </>
   );
 }
